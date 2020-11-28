@@ -1,1 +1,86 @@
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf)
 
+}
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family:Roboto ;
+}
+
+.top-nav{
+    background:rgba( 0,0,0,0.8);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 1px 2px 2px #000;
+}
+.top-nav li{
+    height: 25px;
+   transition-duration: 0.5s;
+}
+.top-nav li:hover{
+    height: 60px;
+    background: red;
+}
+.top-nav li a{
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.grid-conteiner{
+border:2px solid #000;
+display:grid;
+grid-template-columns:repeat(4,1fr);
+grid-template-rows:repeat(3,5em);
+}
+.grid-item{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1.1em;
+    color: #fff;
+}
+.color1{
+    background:red;
+}
+.color2{
+    background:rgba(0,162,255);
+}
+.color3{
+    background:rgba(111,0,255);
+}
+.color4{
+    background:rgba(195,0,255);
+}
+.color5{
+    background:rgba(255,0,255);
+}
+.color6{
+ background-color:rgba(260,0,245)
+}
+.color7{
+ background-color:rgba(0,162,255)
+}
+.color8{
+    background:rgba(111,0,255);
+}
+.color9{
+    background:rgba(195,0,255);
+}
+.color10{
+    background:red;
+}
+.phones a, .phones{
+    margin-left:20px ;
+    color: rgb(10, 1, 1);
+    text-decoration: none;
+    font-size: 0.9em;
+}
+.h{
+    margin-left: 20px;
+}
